@@ -9,36 +9,6 @@ date: '`r Sys.Date()`'
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Instructions
-
->Ambulance ramping occurs when paramedics are made to wait at the hospital’s entrance and are unable to transfer their patient into the emergency department within an appropriate time frame (usually 30 minutes)
-
-[---The Conversation](https://theconversation.com/ambulance-ramping-is-getting-worse-in-australia-heres-why-and-what-we-can-do-about-it-232720)
-
-Use storytelling with data to communicate the issues around the topic of ambulance ramping. Prepare three slides following the structure of (i) Setup, (ii) Conflict, and (iii) Resolution. 
-
-Try to incorporate **Aesthetics**, **Narrative**, and **Emotion** to bring your story to life.
-
-## Resources
-
-* [Conversation Article](https://theconversation.com/ambulance-ramping-is-getting-worse-in-australia-heres-why-and-what-we-can-do-about-it-232720)
-* [BHI Healthcare Quarterly Report](https://www.bhi.nsw.gov.au/__data/assets/pdf_file/0007/946402/BHI_HQ56_Jan-Mar2024_Report.pdf)
-* [Ambulance performance data](https://www.health.nsw.gov.au/data/Topics/Pages/ambulance-performance.aspx)
-
-## Data
-
-You are provided with some data from the [BHI Healthcare Quarterly Report](https://www.bhi.nsw.gov.au/__data/assets/pdf_file/0007/946402/BHI_HQ56_Jan-Mar2024_Report.pdf)
-
-```{r}
-load('amboData.Rda')
-print(amboData)
-```
-
-* **ed_arrivals** ED arrivals by ambulance
-* **pct_timely** % patients transferred from paramedics to
-ED staff within 30 minutes
-* **pctile_90th** 90th percentile transfer time from paramedics to ED (minutes)
-
 ## Setup
 <!-- Your ideas here -->
 

@@ -14,8 +14,10 @@ Conversation](https://theconversation.com/ambulance-ramping-is-getting-worse-in-
 ------------------------------------------------------------------------
 
 Use storytelling with data to communicate the issues around the topic of
-ambulance ramping. Prepare three slides following the structure of (i)
-Setup, (ii) Conflict, and (iii) Resolution.
+ambulance ramping. Use the template file `activity.Rmd` to create three
+slides following the structure of (i) Setup, (ii) Conflict, and (iii)
+Resolution. You are also welcome to just use a PowerPoint file with the
+same three slides.
 
 Try to incorporate **Aesthetics**, **Narrative**, and **Emotion** to
 bring your story to life.
